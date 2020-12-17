@@ -1,0 +1,22 @@
+{
+  "name": "profile-card",
+  "version": "1.0.0",
+  "description": "Profile card",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nachito2002/profile-card.git"
+  },
+  "author": "Ignacio Alejandro Torres Franceschi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nachito2002/profile-card/issues"
+  },
+  "homepage": "https://github.com/Nachito2002/profile-card#readme",
+  "devDependencies": {
+    "firebase-tools": "^9.0.1"
+  }
+}

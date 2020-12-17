@@ -1,0 +1,101 @@
+[debug] [2020-12-17T04:27:12.835Z] ----------------------------------------------------------------------
+[debug] [2020-12-17T04:27:12.842Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Nacho\Desktop\Nacho\Programacion\profile-card\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-12-17T04:27:12.844Z] CLI Version:   9.0.1
+[debug] [2020-12-17T04:27:12.844Z] Platform:      win32
+[debug] [2020-12-17T04:27:12.844Z] Node Version:  v13.14.0
+[debug] [2020-12-17T04:27:12.847Z] Time:          Thu Dec 17 2020 01:27:12 GMT-0300 (hora estándar de Argentina)
+[debug] [2020-12-17T04:27:12.848Z] ----------------------------------------------------------------------
+[debug] [2020-12-17T04:27:12.848Z] 
+[debug] [2020-12-17T04:27:12.860Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2020-12-17T04:27:12.919Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-17T04:27:12.923Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Nacho\Desktop\Nacho\Programacion\profile-card
+
+[debug] [2020-12-17T04:27:13.582Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2020-12-17T04:27:13.583Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2020-12-17T04:28:08.597Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-12-17T04:28:08.599Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-12-17T04:28:08.767Z] <<< HTTP RESPONSE 200 {"date":"Thu, 17 Dec 2020 04:28:06 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-17T04:28:08.841Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"profile-card-12rfsd4tfdsf","name":"Profile Card"}
+[debug] [2020-12-17T04:28:10.151Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 17 Dec 2020 04:28:07 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1153","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-17T04:28:10.155Z] > refreshing access token with scopes: []
+[debug] [2020-12-17T04:28:10.156Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-12-17T04:28:10.285Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Thu, 17 Dec 2020 04:28:07 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-17T04:28:10.348Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7566366012022366654 [none]
+[debug] [2020-12-17T04:28:11.545Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7566366012022366654 200
+[debug] [2020-12-17T04:28:11.546Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7566366012022366654 {"name":"operations/cp.7566366012022366654"}
+[debug] [2020-12-17T04:28:12.048Z] [Project Creation Poller] Retrying task index 0
+[debug] [2020-12-17T04:28:12.050Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7566366012022366654 [none]
+[debug] [2020-12-17T04:28:13.255Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7566366012022366654 200
+[debug] [2020-12-17T04:28:13.255Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7566366012022366654 {"name":"operations/cp.7566366012022366654","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true}}
+[debug] [2020-12-17T04:28:14.257Z] [Project Creation Poller] Retrying task index 0
+[debug] [2020-12-17T04:28:14.258Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7566366012022366654 [none]
+[debug] [2020-12-17T04:28:15.487Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7566366012022366654 200
+[debug] [2020-12-17T04:28:15.488Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7566366012022366654 {"name":"operations/cp.7566366012022366654","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"801904468203","projectId":"profile-card-12rfsd4tfdsf","lifecycleState":"ACTIVE","name":"Profile Card","createTime":"2020-12-17T04:28:07.357Z"}}
+[debug] [2020-12-17T04:28:15.494Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-12-17T04:28:15.494Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-12-17T04:28:15.677Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Thu, 17 Dec 2020 04:28:13 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-17T04:28:15.733Z] >>> HTTP REQUEST POST https://firebase.googleapis.com/v1beta1/projects/profile-card-12rfsd4tfdsf:addFirebase  
+ 
+[debug] [2020-12-17T04:28:18.657Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 17 Dec 2020 04:28:16 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-17T04:28:18.658Z] > refreshing access token with scopes: []
+[debug] [2020-12-17T04:28:18.659Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-12-17T04:28:18.789Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Thu, 17 Dec 2020 04:28:16 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-17T04:28:18.864Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MzQyNDZiNzQtODZkMC00MGYyLWIwMzYtODQwYzU1Mzg3Yzkz [none]
+[debug] [2020-12-17T04:28:20.153Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MzQyNDZiNzQtODZkMC00MGYyLWIwMzYtODQwYzU1Mzg3Yzkz 200
+[debug] [2020-12-17T04:28:20.153Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MzQyNDZiNzQtODZkMC00MGYyLWIwMzYtODQwYzU1Mzg3Yzkz {"name":"operations/workflows/MzQyNDZiNzQtODZkMC00MGYyLWIwMzYtODQwYzU1Mzg3Yzkz"}
+[debug] [2020-12-17T04:28:20.655Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2020-12-17T04:28:20.656Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MzQyNDZiNzQtODZkMC00MGYyLWIwMzYtODQwYzU1Mzg3Yzkz [none]
+[debug] [2020-12-17T04:28:21.824Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MzQyNDZiNzQtODZkMC00MGYyLWIwMzYtODQwYzU1Mzg3Yzkz 200
+[debug] [2020-12-17T04:28:21.825Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MzQyNDZiNzQtODZkMC00MGYyLWIwMzYtODQwYzU1Mzg3Yzkz {"name":"operations/workflows/MzQyNDZiNzQtODZkMC00MGYyLWIwMzYtODQwYzU1Mzg3Yzkz"}
+[debug] [2020-12-17T04:28:22.826Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2020-12-17T04:28:22.827Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MzQyNDZiNzQtODZkMC00MGYyLWIwMzYtODQwYzU1Mzg3Yzkz [none]
+[debug] [2020-12-17T04:28:23.974Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MzQyNDZiNzQtODZkMC00MGYyLWIwMzYtODQwYzU1Mzg3Yzkz 200
+[debug] [2020-12-17T04:28:23.974Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MzQyNDZiNzQtODZkMC00MGYyLWIwMzYtODQwYzU1Mzg3Yzkz {"name":"operations/workflows/MzQyNDZiNzQtODZkMC00MGYyLWIwMzYtODQwYzU1Mzg3Yzkz"}
+[debug] [2020-12-17T04:28:25.975Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2020-12-17T04:28:25.976Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MzQyNDZiNzQtODZkMC00MGYyLWIwMzYtODQwYzU1Mzg3Yzkz [none]
+[debug] [2020-12-17T04:28:27.171Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MzQyNDZiNzQtODZkMC00MGYyLWIwMzYtODQwYzU1Mzg3Yzkz 200
+[debug] [2020-12-17T04:28:27.171Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MzQyNDZiNzQtODZkMC00MGYyLWIwMzYtODQwYzU1Mzg3Yzkz {"name":"operations/workflows/MzQyNDZiNzQtODZkMC00MGYyLWIwMzYtODQwYzU1Mzg3Yzkz"}
+[debug] [2020-12-17T04:28:31.172Z] [Add Firebase Poller] Retrying task index 0
+[debug] [2020-12-17T04:28:31.173Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MzQyNDZiNzQtODZkMC00MGYyLWIwMzYtODQwYzU1Mzg3Yzkz [none]
+[debug] [2020-12-17T04:28:32.274Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MzQyNDZiNzQtODZkMC00MGYyLWIwMzYtODQwYzU1Mzg3Yzkz 200
+[debug] [2020-12-17T04:28:32.274Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/operations/workflows/MzQyNDZiNzQtODZkMC00MGYyLWIwMzYtODQwYzU1Mzg3Yzkz {"name":"operations/workflows/MzQyNDZiNzQtODZkMC00MGYyLWIwMzYtODQwYzU1Mzg3Yzkz","done":true,"response":{"@type":"type.googleapis.com/google.firebase.service.v1beta1.FirebaseProject","projectId":"profile-card-12rfsd4tfdsf","projectNumber":"801904468203","displayName":"Profile Card","name":"projects/profile-card-12rfsd4tfdsf","resources":{"hostingSite":"profile-card-12rfsd4tfdsf"}}}
+[info] 
+[info] === Your Firebase project is ready! ===
+[info] 
+[info] Project information:
+[info]    - Project ID: profile-card-12rfsd4tfdsf
+[info]    - Project Name: Profile Card
+[info] 
+[info] Firebase console is available at
+[info] https://console.firebase.google.com/project/profile-card-12rfsd4tfdsf/overview
+[info] i  Using project profile-card-12rfsd4tfdsf (Profile Card) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
